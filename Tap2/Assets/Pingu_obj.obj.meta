@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 79056f362c763ed4aa3006db7b45d071
+timeCreated: 1525471306
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bola_goro
+    100002: bufanda
+    100004: Default
+    100006: gorro
+    100008: ojo_2
+    100010: ojos
+    100012: Patas
+    100014: pecho
+    100016: pico
+    100018: pingu
+    100020: //RootNode
+    400000: bola_goro
+    400002: bufanda
+    400004: Default
+    400006: gorro
+    400008: ojo_2
+    400010: ojos
+    400012: Patas
+    400014: pecho
+    400016: pico
+    400018: pingu
+    400020: //RootNode
+    2100000: bola_goroMat
+    2100002: bufandaMat
+    2100004: DefaultMat
+    2100006: gorroMat
+    2100008: ojo_2Mat
+    2100010: ojosMat
+    2100012: PatasMat
+    2100014: pechoMat
+    2100016: picoMat
+    2100018: pinguMat
+    2300000: bola_goro
+    2300002: bufanda
+    2300004: Default
+    2300006: gorro
+    2300008: ojo_2
+    2300010: ojos
+    2300012: Patas
+    2300014: pecho
+    2300016: pico
+    2300018: pingu
+    3300000: bola_goro
+    3300002: bufanda
+    3300004: Default
+    3300006: gorro
+    3300008: ojo_2
+    3300010: ojos
+    3300012: Patas
+    3300014: pecho
+    3300016: pico
+    3300018: pingu
+    4300000: bola_goro
+    4300002: bufanda
+    4300004: Default
+    4300006: gorro
+    4300008: ojo_2
+    4300010: ojos
+    4300012: Patas
+    4300014: pecho
+    4300016: pico
+    4300018: pingu
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

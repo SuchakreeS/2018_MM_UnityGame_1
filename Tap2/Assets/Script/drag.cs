@@ -12,6 +12,10 @@ public class drag : MonoBehaviour {
 	public UnityEngine.UI.Text textHighScore;
 	public GameObject pingu;
 	public bool live;
+	public AudioSource fly;
+	public AudioSource die;
+	public AudioSource win;
+	public AudioSource getPoint;
 	// Use this for initialization
 	void Start () {
 		moveSpeed = 3f;
@@ -27,16 +31,17 @@ public class drag : MonoBehaviour {
 			if (Input.GetKeyDown("space")  && isGrounded == true){
 			rb.AddForce(transform.up * jumpPower,ForceMode.Impulse);
 			isGrounded = false;
+			fly.Play();
 			}
-			if (Input.GetKey("left"))
+			if (Input.GetKey("left")){
 				pingu.transform.Rotate(0, -20, 0);
-				print("up arrow key is held left");
-			
-			if (Input.GetKey("right"))
+				//print("up arrow key is held left");
+			}
+			if (Input.GetKey("right")){
 				
 				pingu.transform.Rotate(0, 20, 0);
-				print("down arrow key is held right");
-			
+				//print("down arrow key is held right");
+			}
 			transform.Translate(moveSpeed*Input.GetAxis("Horizontal")*Time.deltaTime, 0f, 0f);
 			textScore.text = score.ToString ();
 			}
@@ -47,13 +52,18 @@ public class drag : MonoBehaviour {
      isGrounded = true;
  }
  void OnTriggerEnter(Collider other) {
+	 print(other.name);
 		if (other.gameObject.tag == "Dead") {
 			live = false;
-			print("You dead already!!!");
+			die.Play();
+		}
+		if (other.gameObject.tag == "Winer") {
+			win.Play();
 		}
 		if (other.gameObject.tag == "Score") {
 			score++;
 			other.gameObject.SetActive (false);
+			getPoint.Play();
 		}
 	}
 

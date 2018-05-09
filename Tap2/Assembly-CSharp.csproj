@@ -59,6 +59,7 @@
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
      <Compile Include="Assets\Script\drag.cs" />
+     <Compile Include="Assets\Script\makeScorer.cs" />
      <Compile Include="Assets\Script\setCamera.cs" />
      <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
      <None Include="Assets\Pixel Font - Tripfive\_README.txt" />

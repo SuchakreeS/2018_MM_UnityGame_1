@@ -11,6 +11,8 @@ public class drag : MonoBehaviour {
 	public UnityEngine.UI.Text textScore;
 	public UnityEngine.UI.Text textHighScore;
 	public GameObject pingu;
+	public GameObject gameOver;
+	public GameObject youWin;
 	public bool live;
 	public AudioSource fly;
 	public AudioSource die;
@@ -54,10 +56,12 @@ public class drag : MonoBehaviour {
  void OnTriggerEnter(Collider other) {
 	 print(other.name);
 		if (other.gameObject.tag == "Dead") {
+			gameOver.gameObject.SetActive(true);
 			live = false;
 			die.Play();
 		}
 		if (other.gameObject.tag == "Winer") {
+			youWin.gameObject.SetActive(true);
 			win.Play();
 		}
 		if (other.gameObject.tag == "Score") {
